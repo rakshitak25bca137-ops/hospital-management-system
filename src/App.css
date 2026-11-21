@@ -1,0 +1,11 @@
+/* CareNova Hospital HMS Custom Styles */
+@media print {
+  aside, header, button, .no-print {
+    display: none !important;
+  }
+  body, main {
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
